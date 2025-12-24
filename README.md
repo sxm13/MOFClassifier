@@ -1,6 +1,7 @@
 ## MOFClassifier: A Machine Learning Approach for Validating Computation-Ready Metal-Organic Frameworks
                                                                                                                                           
 [![Static Badge](https://img.shields.io/badge/arXiv.2506.14845v1-brightgreen?style=flat)](https://arxiv.org/abs/2506.14845)
+[![DOI](https://img.shields.io/badge/DOI-10.1021/jacs.5c10126-blue.svg)](https://pubs.acs.org/doi/10.1021/jacs.5c10126)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Chung-Research-Group/MOFClassifier?logo=github&logoColor=white&label=Repo%20Size)
 [![PyPI](https://img.shields.io/pypi/v/MOFClassifier?logo=pypi&logoColor=white)](https://pypi.org/project/MOFClassifier?logo=pypi&logoColor=white)
 [![Requires Python 3.9](https://img.shields.io/badge/Python-3.9-blue.svg?logo=python&logoColor=white)](https://python.org/downloads)
@@ -35,7 +36,7 @@ results = CLscore.predict_batch(root_cifs=["./example1.cif""./example2.cif","./e
 -  **results**: a. cifid: the name of structure; b. all_score: the CLscore predicted by 100 models (bags); c. mean_score: the mean CLscore of CLscores  
                                                                                 
 ### Citation                                          
-**Guobin Zhao**, **Pengyu Zhao** and **Yongchul G. Chung**. 2025. **arXiv.2506.14845**.
+[Guobin Zhao, Pengyu Zhao and Yongchul G. Chung. ***Journal of the American Chemical Society***, 2025, 147, 37, 33343–33349. DOI: 10.1021/jacs.5c10126](https://pubs.acs.org/doi/10.1021/jacs.5c10126)
 
 
 ### Acknowledgments

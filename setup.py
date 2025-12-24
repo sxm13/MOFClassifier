@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
         name="MOFClassifier",
-        version="0.1.0",
+        version="0.1.1",
         packages=find_packages(),
         description="A Machine Learning Approach for Validating Computation-Ready Metal-Organic Frameworks",
         author="Guobin Zhao",
